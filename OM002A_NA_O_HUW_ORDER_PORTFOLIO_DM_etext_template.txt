@@ -1,0 +1,189 @@
+Format Setup:
+<TEMPLATE TYPE>	DELIMITER_BASED
+<OUTPUT CHARACTER SET>	iso-8859-1
+<NEW RECORD CHARACTER>	Carriage Return
+Format Data Records:
+
+<LEVEL>	G_3
+<NEW RECORD>	ONHAND
+<MAXIUMUM LENGTH>	<FORMAT>	<DATA>	<TAG>	<COMMENTS>
+5000	Alpha	HEADER		1
+
+<LEVEL>	G_3
+<NEW RECORD>	ONHAND
+<MAXIUMUM LENGTH>	<FORMAT>	<DATA>	<TAG>	<COMMENTS>
+50	Alpha	HEADER_BLOCK		2
+
+<END LEVEL>	G_3
+
+<LEVEL>	G_1
+<NEW RECORD>	ONHAND
+<MAXIUMUM LENGTH>	<FORMAT>	<DATA>	<TAG>	<COMMENTS>
+50	Alpha	RECORDIDENTIFIER		3
+3	Alpha	';'		
+50	Alpha	COMPANY_CODE		4
+3	Alpha	';'		
+50	Alpha	ORGANIZATION_CODE		5
+3	Alpha	';'		
+50	Alpha	ORGANIZATION_TYPE		6
+3	Alpha	';'		
+50	Alpha	FINISHED_GOOD_ORGANIZATION_TYPE		7
+3	Alpha	';'		
+50	Alpha	OC_COMPANYCODE		8
+3	Alpha	';'		
+50	Alpha	OD_COUNTRYCODE		9
+3	Alpha	';'		
+50	Alpha	OR_COUNTRYCODE		10
+3	Alpha	';'		
+50	Alpha	SITE		11
+3	Alpha	';'		
+50	Alpha	ITEM_SEGMENT1		12
+3	Alpha	';'		
+50	Alpha	PARENT_ITEM		13
+3	Alpha	';'		
+50	Alpha	ITEM_SEGMENT2		14
+3	Alpha	';'		
+50	Alpha	CCI		15
+3	Alpha	';'		
+50	Alpha	CAD		16
+3	Alpha	';'		
+50	Alpha	ITEM_CATEGORY		17
+3	Alpha	';'		
+50	Alpha	FG_CATEGORY		18
+3	Alpha	';'		
+50	Alpha	PURCHASING_CATEGORY		19
+3	Alpha	';'		
+50	Alpha	MFG_CATEGORY		20
+3	Alpha	';'		
+50	Alpha	PRODUCT_FAMILY		21
+3	Alpha	';'		
+50	Alpha	OM_CATEGORY		22
+3	Alpha	';'		
+50	Alpha	WAREHOUSE		23
+3	Alpha	';'		
+50	Alpha	ITEM_DESCRIPTION		24
+3	Alpha	';'		
+50	Alpha	REVISION		25
+3	Alpha	';'		
+50	Alpha	SUBINVENTORY		26
+3	Alpha	';'		
+50	Alpha	LOCATOR		27
+3	Alpha	';'		
+50	Alpha	LOT		28
+3	Alpha	';'		
+50	Alpha	LPN		29
+3	Alpha	';'		
+50	Alpha	PARENT_LPN		30
+3	Alpha	';'		
+50	Alpha	SERIAL		31
+3	Alpha	';'		
+50	Alpha	CONTAINERIZED_FLAG		32
+3	Alpha	';'		
+50	Alpha	RECEIVING_LOCATION		33
+3	Alpha	';'		
+50	Alpha	PRIMARY_QUANTITY		34
+3	Alpha	';'		
+50	Alpha	PRIMARY_UOM		35
+3	Alpha	';'		
+50	Alpha	PRIMARY_QUANTITY_VALUE		36
+3	Alpha	';'		
+50	Alpha	UNIT_COST		37
+3	Alpha	';'		
+50	Alpha	SNAPSHOT_DATE		38
+3	Alpha	';'		
+50	Alpha	ONHAND_STATUS		39
+3	Alpha	';'		
+50	Alpha	MATERIAL_LOCATION		40
+3	Alpha	';'		
+50	Alpha	OWNING_PARTY		41
+3	Alpha	';'		
+50	Alpha	COST_TYPE		42
+3	Alpha	';'		
+50	Alpha	CUSTOMER_COUNTRY_CODE		43
+3	Alpha	';'		
+50	Alpha	MARKET_CODE		44
+3	Alpha	';'		
+50	Alpha	CLIENT_CODE		45
+3	Alpha	';'		
+50	Alpha	NIP_IMP		46
+3	Alpha	';'		
+50	Alpha	MATNOM		47
+3	Alpha	';'		
+50	Alpha	MATREF		48
+3	Alpha	';'		
+50	Alpha	SNAPSHOT_TIME_DATE_TIME_ZONE		49
+3	Alpha	';'		
+50	Alpha	DUNS_CODE		50
+3	Alpha	';'		
+50	Alpha	MICH_DUNS		51
+3	Alpha	';'		
+50	Alpha	INTENDED_MARKET		52
+3	Alpha	';'		
+50	Alpha	ITEM_PRODUCT_NATURE		53
+3	Alpha	';'		
+50	Alpha	STOCK_TYPE		54
+3	Alpha	';'		
+50	Alpha	RECEIVING_LOCATION_TYPE		55
+3	Alpha	';'		
+50	Alpha	STOCK_STATUS		56
+3	Alpha	';'		
+50	Alpha	BUSINESS_LINE		57
+
+<END LEVEL>	G_1
+
+<LEVEL>	G_2
+<NEW RECORD>	ONHAND
+<MAXIUMUM LENGTH>	<FORMAT>	<DATA>	<TAG>	<COMMENTS>
+50	Alpha	DOCUMENT_NUM		60
+3	Alpha	';'		
+50	Alpha	DOCUMENT_STATUS_CODE		61
+3	Alpha	';'		
+50	Alpha	LINE_NUMBER		62
+3	Alpha	';'		
+50	Alpha	LINE_TYPE_LOOKUP_CODE		63
+3	Alpha	';'		
+50	Alpha	ITEM_SEGMENT1		64
+3	Alpha	';'		
+50	Alpha	LINE_STATUS_CODE		65
+3	Alpha	';'		
+50	Alpha	SHIP_TO_LOCATION		66
+3	Alpha	';'		
+50	Alpha	ORDERED_QUANTITY		67
+3	Alpha	';'		
+50	Alpha	ORDER_DATE		68
+3	Alpha	';'		
+50	Alpha	MARKET_CODE		69
+3	Alpha	';'		
+50	Alpha	SHIP_FROM_ORGANIZATION		70
+3	Alpha	';'		
+50	Alpha	BILL_TO_LOCATION		71
+3	Alpha	';'		
+50	Alpha	FORECAST_PROFILE_CODE		72
+3	Alpha	';'		
+50	Alpha	ITEM_PRODUCT_LINE		73
+3	Alpha	';'		
+50	Alpha	REQUEST_RECEPTION_DATE		74
+3	Alpha	';'		
+50	Alpha	SCHEDULE_RECEPTION_DATE		75
+3	Alpha	';'		
+50	Alpha	COMMERCIAL_OFFER		76
+3	Alpha	';'		
+50	Alpha	ORGANIZATION_CODE		77
+3	Alpha	';'		
+50	Alpha	DATA_BLOCK		78
+3	Alpha	';'		
+50	Alpha	RECORDIDENTIFIER		79
+
+<END LEVEL>	G_2
+
+<LEVEL>	G_3
+<NEW RECORD>	ONHAND
+<MAXIUMUM LENGTH>	<FORMAT>	<DATA>	<TAG>	<COMMENTS>
+5000	Alpha	FOOTER_BLOCK		58
+
+<LEVEL>	G_3
+<NEW RECORD>	ONHAND
+<MAXIUMUM LENGTH>	<FORMAT>	<DATA>	<TAG>	<COMMENTS>
+5000	Alpha	FOOTERFILE		59
+
+<END LEVEL>	G_3
